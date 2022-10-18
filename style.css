@@ -1,9 +1,51 @@
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: aqua;
+}
+
+.nav-bar{
+    display: flex;
+    height: 100%; 
+    justify-content: space-between;
+}
+
+
+.logo,
+ul{
+    display: inline-flex;
+    list-style: none;
+    padding: 0 px;
+}
+
+ul{
+    float: right;
+    margin-top: 30px;
+    list-style: none;
+}
+
+
+.hero{
+    background-color: #1f2937 ;
+    color: white;
+    padding: 30px;
+}
+
+.hero {
+    display: flex;
+    flex-wrap: row wrap;
+    align-items: center;
+    flex: 1 100%;
+    gap: 8px;
 }
 
 .main-header{
-    background-color: aliceblue;
-    display: flex;
+    width: 100px;
+    height: 100px;
+    margin: auto;
 }
+
+
+
+
+
+
+
