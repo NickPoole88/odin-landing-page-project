@@ -22,7 +22,6 @@ ul{
     list-style: none;
 }
 
-
 .hero{
     background-color: #1f2937 ;
     color: white;
@@ -31,16 +30,16 @@ ul{
 
 .hero {
     display: flex;
+    position: relative;
     flex-wrap: row wrap;
     align-items: center;
     flex: 1 100%;
     gap: 8px;
 }
 
-.main-header{
-    width: 100px;
-    height: 100px;
-    margin: auto;
+img{
+    height: fit-content;
+    
 }
 
 
