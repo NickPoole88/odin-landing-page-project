@@ -5,21 +5,27 @@ body{
 .nav-bar{
     display: flex;
     height: 100%; 
+    width: 100%;
     justify-content: space-between;
+    background-color: #1f2937;
+    color: white;
 }
-
-
 .logo,
 ul{
     display: inline-flex;
     list-style: none;
-    padding: 0 px;
+    padding: 10px;
 }
 
 ul{
     float: right;
     margin-top: 30px;
     list-style: none;
+}
+
+a{
+    color: white;
+    margin: 10px;
 }
 
 .hero{
@@ -30,17 +36,116 @@ ul{
 
 .hero {
     display: flex;
-    position: relative;
     flex-wrap: row wrap;
     align-items: center;
     flex: 1 100%;
-    gap: 8px;
 }
 
-img{
-    height: fit-content;
-    
+.hero-text,
+.header-image {
+    display: flex;
+    flex-direction: column;
+    margin: 80px;
 }
+
+button{
+    width: 150px;
+    font-weight: 600;
+    padding: 10px;
+    color: white;
+    background-color:#3882f6;
+    border-radius: 10px;
+}
+
+.section-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.section-1-images{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+}
+
+.section-1-header{
+    font-size: 36px;
+}
+
+.section-1-text{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+}
+
+.image123{
+    margin: 50px;
+    padding: 0 30px;
+    height: 300px;
+    width: 300px;
+}
+
+.text123{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: -30px;
+    padding: 0 110px;
+}
+
+.section-2{
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-style: italic;
+    font-size: 36px;
+    padding: 150px;
+}
+
+.quote{
+    font-size: 20px;
+    font-weight: 700;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+.cta-box{
+    display: flex;
+    background-color: #3882f6;
+    border-radius: 10px;
+    margin: 100px;
+    color: white;
+    padding: 30px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.section-3-text{
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+}
+
+button{
+    border-color: white;
+}
+
+.footer{
+    display: flex;
+    height: 100%; 
+    justify-content: space-between;
+    background-color: #1f2937;
+    color: white;
+    justify-content: center;
+}
+
+
 
 
 
