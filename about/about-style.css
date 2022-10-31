@@ -1,0 +1,29 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.nav-bar{
+    display: flex;
+    height: 100%; 
+    width: 100%;
+    justify-content: space-between;
+    background-color: #1f2937;
+    color: white;
+}
+.logo,
+ul{
+    display: inline-flex;
+    list-style: none;
+    padding: 10px;
+}
+
+ul{
+    float: right;
+    margin-top: 30px;
+    list-style: none;
+}
+
+a{
+    color: white;
+    margin: 10px;
+}
